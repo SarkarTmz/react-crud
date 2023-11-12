@@ -1,0 +1,10 @@
+.footer a{
+    color: red;
+}
+.footer{
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(69, 69, 69);
+    margin-top: 5rem;
+}

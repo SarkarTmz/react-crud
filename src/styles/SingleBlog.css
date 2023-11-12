@@ -1,0 +1,39 @@
+/* Style for the blog post container */
+.blog-post {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the author avatar */
+.avatar {
+    margin-right: 20px;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Style for the blog post title */
+.post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the blog post description */
+.post-description {
+    font-size: 16px;
+    color: #333;
+}
+button{
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-right: 1.3rem;
+    margin-top: 2rem;
+}
