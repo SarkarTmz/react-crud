@@ -15,3 +15,10 @@ Technology Use in:-
 - JavaScript
 - ReactJS
 - API
+
+## For use this code
+- git clone https://github.com/SarkarTmz/react-crud
+- npm install
+- npm start
+  
+###Happy coding 
