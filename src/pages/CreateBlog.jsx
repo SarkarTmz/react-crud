@@ -27,6 +27,7 @@ const CreateBlog = () => {
         <form onSubmit={createBlog} >
             <input type="text" id="title" placeholder='title' name="title" required  />
             <textarea id="description" placeholder='description' name="description" rows="4" required  ></textarea>
+            <textarea id="content" placeholder='content' name="content" rows="4" required  ></textarea>
             <input type="text" id="image" placeholder='image' name="avatar" required  />
             <input type="submit" value="Submit" />
         </form>

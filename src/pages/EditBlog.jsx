@@ -40,6 +40,7 @@ const EditBlog = () => {
           <form onSubmit={editBlog} >
               <input type="text" id="title" onChange={(e)=>setBlog({...blog,title:e.target.value})}  value={blog.title}  placeholder='title' name="title" required  />
               <textarea id="description" placeholder='description' onChange={(e)=>setBlog({...blog,description:e.target.value})} value={blog.description} name="description" rows="4" required  ></textarea>
+              <textarea id="content" placeholder='content' onChange={(e)=>setBlog({...blog,content:e.target.value})} value={blog.content} name="content" rows="4" required  ></textarea>
               <input type="text" id="image" placeholder='image' onChange={(e)=>setBlog({...blog,avatar:e.target.value})} value={blog.avatar}  name="avatar" required  />
               <input type="submit" value="Edit" />
           </form>

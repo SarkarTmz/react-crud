@@ -1,6 +1,6 @@
-/* Style for the blog post container */
 .blog-post {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
     border: 1px solid #ccc;
@@ -8,15 +8,16 @@
     margin: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-/* Style for the author avatar */
+.post-content{
+    margin-top: 5rem;
+}
 .avatar {
     margin-right: 20px;
 }
 
 .avatar img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 

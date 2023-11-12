@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.next{
+    text-align: center;
+    background-color: yellow;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+.date{
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+}

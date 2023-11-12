@@ -12,14 +12,12 @@ const AllBlogs = () => {
 
 
   const fetchBlogs = async()=>{
-    const response = await axios.get("https://64ee096e1f872182714237b9.mockapi.io/blog")
-    if(response.status == 200){
-      console.log(response.data)
+        const response = await axios.get("https://64ee096e1f872182714237b9.mockapi.io/blog")
+        if(response.status == 200){
+          // console.log(response.data)
 
-    setBlogs(response.data)
-  
-    
-  }
+        setBlogs(response.data)
+        }
 
 
   }
@@ -40,13 +38,13 @@ const AllBlogs = () => {
               <div className="card" key={blog.id}>
                     <img src={blog.avatar} alt="Avatar"  width='100%' />
                       <div className="container">
-                        <h4><b>{blog.title}</b></h4> 
-                        <p style={{color:"red"}}>{blog.description}</p> 
-                        <p>{blog.createdAt}</p>
+                        <h3 className="title">{blog.title}</h3> 
+                        <p className="description">{blog.description}</p>
+                        {/* <p className="content">{blog.content}</p> */}
+                        <p className="date">{blog.createdAt}</p>
                       </div>
-                      <p onClick={()=>navigate("/singleBlog/" + blog.id)} style={{textAlign:"center"}}>See More</p>
+                      <p onClick={()=>navigate("/singleBlog/" + blog.id)} className="next">See More</p>
               </div>
-
             )
           })
         }
