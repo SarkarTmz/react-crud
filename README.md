@@ -1,9 +1,17 @@
-# React + Vite
+## React - CRUD - API 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello, I am currently new to react and i make this basic react crud. I make this using Mockapi which give us free api keys and basic action to DB.
+The code is live on - (https://react-apicrud.vercel.app/)
 
-Currently, two official plugins are available:
+In this code i work bacis crud:-
+- Add new item [Text & Images],
+- View item details,
+- Edit and update item details,
+- Delete item,
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# ReactCMSProject" 
+Technology Use in:-
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- API
