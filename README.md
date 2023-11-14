@@ -1,24 +1,67 @@
-## React - CRUD - API 
 
-Hello, I am currently new to react and i make this basic react crud. I make this using Mockapi which give us free api keys and basic action to DB.
-The code is live on - (https://wikibio.vercel.app/)
+# Wiki Bio
 
-In this code i work bacis crud:-
-- Add new item [Text & Images],
-- View item details,
-- Edit and update item details,
-- Delete item,
+Hello, I am currently new to react and i make this basic react crud. I make this using Mockapi which give us free api keys and basic action to DB..
+ Contributions are always welcome. **## Happy Coding ##**
+## Deployment
 
-Technology Use in:-
-- HTML
-- CSS
-- JavaScript
-- ReactJS
-- API
+This project is live here
 
-## For use this code
-- git clone https://github.com/SarkarTmz/react-crud
-- npm install
-- npm start
+https://wikibio.vercel.app/
+
+
+## App Function:-
+
+**1. Add new item [Text & Images],**
+
+**2. View item details**
+
+**3. Edit and update item details,**
+
+**4. Delete item**
+
+## Technologies use in
+
+**1. HTML5**
+
+**2. CSS3**
+
+**3. JavaScript**
+
+**4. React**
+
+**5. API**
+
+**6. React-hooks**
+
+**7. axios**
+
+
+## Installation
+
+To Use this code, follow this steps:-
+
+```bash
+  git clone https://github.com/SarkarTmz/react-crud
+
+  cd NewsApp
+
+  npm install
+
+  npm run dev
   
-### ##Happy coding##
+```
+    
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Author
+
+- [@SarkarTmz](https://www.github.com/SarkarTmz)
+
