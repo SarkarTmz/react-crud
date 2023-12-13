@@ -31,7 +31,7 @@ const AllBlogs = () => {
   return (
     <div>
       <Navbar /> 
-      <div style={{display:'flex',justifyContent:"space-evenly",flexWrap:'wrap'}}>
+      <div className="allblog">
         {
           blogs.map((blog)=>{
             return (
